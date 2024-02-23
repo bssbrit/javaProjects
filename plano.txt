@@ -35,4 +35,13 @@ Plano:
     Fazer display do painel
     Atualizar o painel cada vez que é digitado um numero
     
-    
+    Vou digitar um número esse número sera enviado para o methodo painel
+    Após selecionar o primeiro número: 
+              se tu selecionar outro número então esse valor(string)
+                   será concaconado ao número digitado antes
+              se for um operador + - x / então o valor anterior pode ser enviado 
+              
+    Se primeiroValor e operador ja existem então é só digitar o segundo número
+           
+     
+     

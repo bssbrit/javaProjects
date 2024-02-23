@@ -1,7 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hi");
-        Painel.painel(2.23f, "+", 4.3f)
-        ;
+        float primeiroValor = 0;
+        float segundoValor = 0;
+        String operador = "+";
+        
+        
+        Painel.painel(primeiroValor, operador, segundoValor);
+        Painel.teclado();
     }
 }
