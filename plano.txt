@@ -1,0 +1,38 @@
+Projeto: Calculadora
+
+Descrição: Criar uma calculadora com as 4 principais 
+operações: + - / x.
+Calculadora também tem o botão C que limpa todo os valores
+e o botão Erase que apaga o ultimo número digitado.
+
+Também sera criada um painel que sera visualizado no console
+
+"Para utilizar a calculadora você deve digitar o número ou
+operador desejado. C e E significam Clean e Erase."
+     =
+  + - x / 
+  1 2 3 4
+  5 6 7 8
+  9 0 C E
+
+Plano: 
+ Class Calculador
+   Operação e valores vão estar na classe calculadora
+    int primeiroValor
+        segundoValor   
+    
+      method ADD
+             SUBSTRACTION
+             DIVISION
+             Multiply
+        
+      method Clean - Limpa os dois valores
+             Erase - Deleta o ultimo digito (provavelmente vamos ter que converter para string)
+         
+      (talvez um metodo para converter o numero de String para float)
+
+ Classe painel 
+    Fazer display do painel
+    Atualizar o painel cada vez que é digitado um numero
+    
+    
