@@ -1,21 +1,20 @@
 public class Calculadora {
-    float primeiroValor = 0;
-    float segundoValor = 0;
     
-    public float add(float x, float y) {
+    
+    public int add(int x, int y) {
 
         return x + y;
     }
     
-    public float minus(float x, float y) {
+    public int minus(int x, int y) {
         return x - y;
     }
     
-    public float multiply(float x, float y) {
+    public int multiply(int x, int y) {
         return x * y;
     }
 
-    public float divide(float x, float y) {
+    public int divide(int x, int y) {
         return x / y;
     }
 }
